@@ -58,12 +58,12 @@ ul {
 ul li {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 8px; /* padding around checkbox and text */
+    padding: 12px 8px 12px 8px;
     background-color: #fff;
     font-size: 16px;
     border: 4px solid #b766c9;
     border-radius: 10px;
-    display: flex; /* align checkbox and text */
+    display: flex;
     margin: 5px;
 }
 
@@ -76,7 +76,7 @@ ul li span {
 }
 
 .delete-btn {
-    background-color: #c43228; /* Red */
+    background-color: #c43228;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -84,7 +84,7 @@ ul li span {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin-left: 10px; /* Space between text and delete button */
+    margin-left: 10px;
     cursor: pointer;
     border-radius: 4px;
 }
