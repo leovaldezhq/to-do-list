@@ -1,0 +1,150 @@
+.header {
+    background-color: #831b9d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.addBtn {
+    padding: 10px 15px;
+    width: 10%;
+    background-color: #731889;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #fbede3;
+    color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #280830;
+    color: white;
+}
+
+#myInput {
+    padding: 11px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px;
+    background-color: #fff;
+    font-size: 16px;
+    border: 4px solid #b766c9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: #333;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+ul li span {
+    flex-grow: 1;
+}
+
+.delete-btn {
+    background-color: #c43228;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #bb3b32;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    #myInput {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .addBtn {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0 10px;
+    }
+}
+
+ul li {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+ul li:hover {
+    background-color: #f0e6f5;
+    transform: scale(1.01);
+}
+
+input:focus, .addBtn:focus, .delete-btn:focus {
+    outline: 2px solid #ffffff88;
+    outline-offset: 2px;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Scrollbar custom (opcional) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9e4ac9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7f2fa2;
+}
